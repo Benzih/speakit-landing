@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeakIt - Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for the SpeakIt voice-powered guessing game.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Nunito, sans-serif;
+            background: linear-gradient(135deg, #1A0A2E 0%, #3D1F6D 100%);
+            color: #E0D6F0;
+            min-height: 100vh;
+            padding: 2rem 1.5rem;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        .back {
+            color: #9B7DD4;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+        .back:hover { color: #FFD700; }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            background: linear-gradient(to right, #FFD700, #FF8C00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.3rem;
+        }
+        .app-name { font-size: 0.95rem; color: #9B7DD4; margin-bottom: 0.3rem; }
+        .updated { font-size: 0.85rem; color: #6B5B8D; margin-bottom: 2.5rem; }
+        h2 { font-size: 1.15rem; font-weight: 700; color: #FF8C00; margin: 2rem 0 0.6rem; }
+        p, li { font-size: 0.95rem; line-height: 1.75; color: #B8A8D4; margin-bottom: 0.7rem; }
+        ul { padding-left: 1.5rem; margin-bottom: 0.7rem; }
+        li { margin-bottom: 0.4rem; }
+        strong { color: #E0D6F0; }
+        a { color: #9B7DD4; }
+        a:hover { color: #FFD700; }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(155, 125, 212, 0.15);
+            font-size: 0.8rem;
+            color: #6B5B8D;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">&larr; Back to SpeakIt</a>
+        <h1>Privacy Policy</h1>
+        <p class="app-name">SpeakIt (gg.speakit) &mdash; developed by Benzi Heler</p>
+        <p class="updated">Last updated: March 19, 2026</p>
+
+        <h2>Introduction</h2>
+        <p>SpeakIt is a voice-powered guessing game for Android. This Privacy Policy explains what information the App collects, how it is used, and your choices regarding your data. By using the App, you agree to the practices described in this policy.</p>
+
+        <h2>Information We Collect</h2>
+
+        <p><strong>Microphone and Voice Data</strong></p>
+        <p>The App uses your device microphone to recognize spoken answers during gameplay. Voice audio is sent to Google Speech-to-Text service for processing. The App itself does not record, store, or transmit your voice data to any server. The microphone is only active during gameplay rounds when the speech recognition indicator is visible. You can revoke microphone permission at any time through your device settings.</p>
+
+        <p><strong>Game Progress</strong></p>
+        <p>Your game progress, scores, settings, and power-up counts are stored locally on your device. This data never leaves your device unless you choose to submit a leaderboard entry.</p>
+
+        <p><strong>Leaderboard Data</strong></p>
+        <p>If you complete the game and submit a leaderboard entry, your player name, total score, star count, and game language are stored in Firebase Firestore. This data is visible to other players on the leaderboard.</p>
+
+        <p><strong>Authentication</strong></p>
+        <p>The App offers optional sign-in via Google or email through Firebase Authentication. If you sign in, your authentication credentials are managed by Firebase. You are not required to sign in to play the game.</p>
+
+        <h2>How We Use Your Information</h2>
+        <ul>
+            <li><strong>Voice input</strong> is used solely to determine whether your spoken answer matches the correct answer during gameplay.</li>
+            <li><strong>Game progress</strong> is used to track your advancement through the game worlds and levels.</li>
+            <li><strong>Leaderboard data</strong> is used to display global and per-language rankings.</li>
+        </ul>
+        <p>We do not sell, rent, or share your personal information with third parties for marketing or advertising purposes.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>The App uses the following third-party services, each with their own privacy policies:</p>
+        <ul>
+            <li><strong>Google Speech-to-Text</strong> &mdash; processes voice input during gameplay. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+            <li><strong>Google Firebase</strong> (Firestore, Authentication) &mdash; provides game data storage and optional user authentication. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy</a></li>
+            <li><strong>Google AdMob</strong> &mdash; displays advertisements within the App. AdMob may collect device identifiers and usage data to serve relevant ads. <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Ads Privacy</a></li>
+        </ul>
+
+        <h2>Advertising</h2>
+        <p>The App uses Google AdMob to display ads. AdMob may use device advertising identifiers, cookies, and similar technologies to provide and personalize ads. You can opt out of personalized advertising through your device advertising settings or by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google Ads Settings</a>.</p>
+
+        <h2>Data Retention</h2>
+        <p>Local game data is stored on your device until you reset your progress within the App or uninstall the App. Leaderboard entries stored in Firebase are retained indefinitely. You may request deletion of your leaderboard data by contacting us at the email address below.</p>
+
+        <h2>Data Security</h2>
+        <p>We take reasonable measures to protect your data. Local game data is stored in the App private storage on your device. Data transmitted to Firebase and Google services is encrypted in transit.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>The App is designed to be suitable for a general audience. We do not knowingly collect personal information from children under the age of 13. The App does not require any personal data to play. If you believe a child has provided personal data through the leaderboard or sign-in features, please contact us so we can remove it.</p>
+
+        <h2>Your Rights</h2>
+        <ul>
+            <li>You can revoke microphone permission at any time through your device settings.</li>
+            <li>You can reset all local game data from the App Settings screen.</li>
+            <li>You can request deletion of leaderboard data by contacting us.</li>
+            <li>You can opt out of personalized ads through your device advertising settings.</li>
+            <li>You can uninstall the App at any time to remove all local data.</li>
+        </ul>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions or concerns about this Privacy Policy or your data, please contact us:</p>
+        <p>
+            <strong>Developer:</strong> Benzi Heler<br>
+            <strong>Email:</strong> <a href="mailto:benziheler@gmail.com">benziheler@gmail.com</a><br>
+            <strong>Website:</strong> <a href="https://speakit.gg">https://speakit.gg</a>
+        </p>
+
+        <footer>
+            &copy; 2026 SpeakIt. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
