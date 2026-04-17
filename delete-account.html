@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeakIt - Delete Account & Data</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #1A0A2E 0%, #3D1F6D 100%);
+            color: #E0D6F0;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #FFD700;
+            margin-bottom: 0.5rem;
+        }
+        .back {
+            color: #9B7DD4;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        .back:hover { color: #FFD700; }
+        .updated {
+            font-size: 0.9rem;
+            color: #9B7DD4;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            color: #FF8C00;
+            margin: 1.5rem 0 0.5rem;
+        }
+        p, li {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #B8A8D4;
+            margin-bottom: 0.8rem;
+        }
+        ul, ol { padding-left: 1.5rem; }
+        a { color: #9B7DD4; }
+        .email-box {
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #FFD700;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        .email-box a {
+            color: #FFD700;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">&larr; Back to SpeakIt</a>
+        <h1>Delete Your Account & Data</h1>
+        <p class="updated">Developer: Benzi Heler &middot; App: SpeakIt</p>
+
+        <h2>How to Request Account Deletion</h2>
+        <p>To request deletion of your SpeakIt account and all associated data, send an email to the address below. We will process your request within 30 days.</p>
+
+        <div class="email-box">
+            <a href="mailto:benziheler@gmail.com?subject=SpeakIt%20Account%20Deletion%20Request">benziheler@gmail.com</a>
+        </div>
+
+        <p>In your email, please include:</p>
+        <ol>
+            <li>The email address or account identifier you used to sign in (Google or Facebook).</li>
+            <li>A statement confirming that you want your account and data permanently deleted.</li>
+        </ol>
+
+        <h2>What Data Is Deleted</h2>
+        <p>When you request deletion, the following data is permanently removed:</p>
+        <ul>
+            <li>Your Firebase authentication account (email, provider ID).</li>
+            <li>Your leaderboard entries (name and score).</li>
+            <li>Your saved game progress associated with your account.</li>
+            <li>Any duel room history linked to your account.</li>
+        </ul>
+
+        <h2>What Data Is Kept</h2>
+        <p>The following data is retained, in anonymized form, for up to 90 days after deletion for service integrity and analytics:</p>
+        <ul>
+            <li>Aggregated, anonymous Firebase Analytics event counts (no personal identifiers).</li>
+            <li>Server-side logs that may contain your IP address, kept only for security and abuse prevention.</li>
+        </ul>
+        <p>After 90 days, all anonymized records are automatically purged.</p>
+
+        <h2>Partial Data Deletion</h2>
+        <p>If you want to delete only specific data (for example, just your leaderboard entry) without deleting your entire account, mention that in your email.</p>
+
+        <h2>Questions</h2>
+        <p>If you have any questions about this process, contact us at <a href="mailto:benziheler@gmail.com">benziheler@gmail.com</a>.</p>
+    </div>
+</body>
+</html>
